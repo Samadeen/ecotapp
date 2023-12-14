@@ -1,4 +1,4 @@
-import styles from './charts.module.scss';
+import styles from './Charts.module.scss';
 import arrow_up from '../../assets/arrow-up.svg';
 import arrow_down from '../../assets/arrow-down.svg';
 import calender from '../../assets/calendar.svg';
