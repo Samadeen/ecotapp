@@ -1,0 +1,34 @@
+.sidebar_container {
+  width: 15.9375rem;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  border-right: 1px solid #c4c4c4;
+
+  .side_head {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2.1rem;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 3px solid #c4c4c4;
+    h1 {
+      color: #000;
+      font-size: 1.375rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.0125rem;
+    }
+
+    svg {
+      transform: translateY(-1rem);
+      margin-left: 1em;
+    }
+  }
+
+  .tabs {
+    padding: 0 0.88rem 0 0.69rem;
+    margin-top: 2.06rem;
+  }
+}

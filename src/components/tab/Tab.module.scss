@@ -1,0 +1,38 @@
+.tab_container {
+  width: 14.375rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border: 1px solid #a6a6a6;
+  border-radius: 0.375rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.69rem;
+  position: relative;
+  padding: 0.63rem 0.81rem;
+  background-color: #f7f8f968;
+  margin-bottom: 1.5rem;
+
+  h3 {
+    color: #000;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+    margin-top: -0.2rem;
+  }
+
+  small {
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.2rem;
+    text-decoration: underline;
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+    cursor: pointer;
+  }
+}
